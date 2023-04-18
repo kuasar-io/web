@@ -15,9 +15,21 @@ This document defines a high level roadmap for Kuasar development.
 
 The roadmap below outlines new features that will be added to Kuasar.
 
+| Sandboxer      | Sandbox          | 2023 H1 | 2023 H2 | 2024 H1 |
+|----------------|------------------|---------|---------|---------|
+| **MicroVM**    | Cloud Hypervisor | ✓       |         |         |
+|                | QEMU             | ✓       |         |         |
+|                | StratoVirt       | ✓       |         |         |
+|                | Firecracker      |         |         | ✓       |
+| **App Kernel** | Quark            | ✓       |         |         |
+|                | gVisor           |         |         | ✓       |
+| **Wasm**       | WasmEdge         | ✓       |         |         |
+|                | Wasmtime         |         | ✓       |         |
+| **runC**       | runC             |         | ✓       |         |
+
+
 ## 2023 H1
 
-+ Release v0.1
 + Support parts of mainstream sandbox, i.e. Cloud Hypervisor, QEMU, StratoVirt, WasmEdge, Quark
 + Support connection of containerd and iSulad via Sandbox API
 
@@ -27,19 +39,14 @@ The roadmap below outlines new features that will be added to Kuasar.
 + Support Wasmtime
 + Start the process of donating projects to CNCF
 
-## 2024 H1
+## 2024
 
-+ Release v1.0
-+ Support more sandboxes, i.e. Wasmtime, gVisor, Firecracker
-+ Develop a CLI tool for operation and maintenance.
-
-## 2024 H2
-
++ Support more sandboxes, i.e. gVisor, Firecracker
 + Support running in Arm64.
-+ Enhance on image distribution.
++ Develop a CLI tool for operation and maintenance.
 
 ## 2025
 
-+ Release v2.0
++ Enhance on image distribution.
 + Support eBPF observation.
 + TBD
