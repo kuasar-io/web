@@ -7,7 +7,7 @@ categories:
 date: 2023-04-15
 draft: false
 lastmod: 2023-04-15
-summary: Benchmark Test Report on Kuasar
+summary: 2× startup speed and 99% shim overhead reduction
 tags:
 - Kuasar
 - Sandbox
@@ -19,7 +19,7 @@ tags:
 title: Benchmark Test Report on Kuasar
 ---
 
-# Benchmark Test Report on Kuasar
+# 2× startup speed and 99% shim overhead reduction
 
 ## Abstract
 
@@ -29,7 +29,7 @@ Kuasar provides an optimized framework to accelerate container startup and reduc
 
 |                  | version  |
 | ---------------- | -------- |
-| Contained        | v1.7.0   |
+| Containerd       | v1.7.0   |
 | Kata             | v2.5.2   |
 | Operation System | centOS 8 |
 | Cloud-Hypervisor | v28.2    |
@@ -57,7 +57,7 @@ In order to control variables consistently, we use:
 
 - startup time:
 
-  The container startup time (including pod startup time) measured end-to-end through CRI. The testing is divided into two groups, one launching a single pod and the other launching 30 pods in parrllel. Every group runs 500 times and obtains CDF data.
+  The container startup time (including pod startup time) measured end-to-end through CRI. The testing is divided into two groups, one launching a single pod and the other launching 30 pods in parallel. Every group runs 500 times and obtains CDF data.
 
 ## Benchmark Test Result
 
