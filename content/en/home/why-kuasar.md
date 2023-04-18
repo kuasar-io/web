@@ -20,6 +20,8 @@ featured:
 - name: <div class="inline">Written in Rust</div>
   description: Kuasar is fully written in Rust, which means high performance, high security and low overhead.
 
+- name: <div class="inline">Clear Device Management Logic</div>
+  description: Kuasar has clear sandbox device management logic, no longer confused with container's, which effectively reduce resource residual problems.
   
 weight: 4
 widget: featured-section
