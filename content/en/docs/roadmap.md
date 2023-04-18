@@ -37,6 +37,8 @@ The roadmap below outlines new features that will be added to Kuasar.
 
 + Support runC container
 + Support Wasmtime
++ Support DRA(Dynamic Resource Allocation) API
++ Support CDI(Container device interface) API
 + Start the process of donating projects to CNCF
 
 ## 2024
