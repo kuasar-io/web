@@ -6,7 +6,7 @@ background:
   overlay_img: headers/bubbles-wide.jpg
 cta:
   label: <i class="fas fa-download"></i> Install Now
-  url: /en/docs/setup/
+  url: /docs/developer/build/
 date: 2017-10-15 00:00:00
 title: Kuasar
 weight: 3

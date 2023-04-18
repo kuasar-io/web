@@ -16,7 +16,7 @@ item:
   cta_icon: fa fa-bullhorn
   cta_icon_pack: fas
   cta_label: Click here for more details
-  cta_url: /en/blog/benchmark-test-report
+  cta_url: /blog/benchmark-test-report
   overlay_color: '#555'
   overlay_filter: 0.25
   overlay_img: headers/header-kubecon.jpg
