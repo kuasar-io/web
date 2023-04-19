@@ -16,7 +16,7 @@ tags:
 - quark
 - cloud-hypervisor
 - node
-title: How to Use Kuasar to Start Different Dandboxes
+title: How to Use Kuasar to Start Different Sandboxes
 ---
 
 # Various sandboxes running in a single node
