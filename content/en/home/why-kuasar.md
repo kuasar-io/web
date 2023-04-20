@@ -9,7 +9,7 @@ featured:
   description: Kuasar makes the sandbox first-class citizen,  providing a unified way for sandbox access and management, and improving sandbox O&M efficiency.
 
 - name: <div class="inline">Multi-Sandbox Colocation</div>
-  description: Kuasar has built-in support for mainstream sandboxes, allowing multiple types of sandboxes to run on a single node.
+  description: Kuasar has built-in support for mainstream sandboxes, including Cloud-Hypervisor, WasmEdge, etc., and supports running multiple sandboxes on a single node.
 
 - name: <div class="inline">Optimized Framework</div>
   description: Kuasar introduces a single resident sandboxer process to replace all the shim processes, providing **2× startup** speed and **99%** overhead reduction.
