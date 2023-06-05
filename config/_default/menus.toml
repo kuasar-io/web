@@ -43,6 +43,12 @@
   url = "https://app.slack.com/client/T08PSQ7BQ/C052JRURD8V?selected_team_id=T08PSQ7BQ"
   weight = 30
 
+[[main_right]]
+  name = "<i class=\"fab fa-weixin\" style=\"color: #55acee; font-size: 1rem; line-height: 1.25\"></i>"
+  post = ""
+  url = "https://mp.weixin.qq.com/s/4L7f8pAlt9KCoyDhkW0mUQ"
+  weight = 40
+
 # Documentation
 
 [[docs]]
