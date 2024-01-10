@@ -16,7 +16,7 @@ baseurl = "/"
 copyright = "2023 &copy; Kuasar Project Authors. All rights reserved."
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = "UA-137983920-1"
+googleAnalytics = "G-NH3R10HHD2"
 
 # Enable comments by entering your Disqus shortname
 disqusShortname = "kuasar"
