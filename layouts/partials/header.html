@@ -125,7 +125,6 @@
       
       gtag('config', 'G-NH3R10HHD2');
     </script>
-    <script async src="//www.google-analytics.com/analytics.js"></script>
     {{ if ($scr.Get "use_cdn") }}
     {{ printf "<script async src=\"%s\" integrity=\"%s\" crossorigin=\"anonymous\"></script>" (printf $js.autotrack.url $js.autotrack.version) $js.autotrack.sri | safeHTML }}
     {{ end }}
